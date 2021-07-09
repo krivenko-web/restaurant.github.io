@@ -1,0 +1,757 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> RESTAURANT</title>
+    <link href="http://fonts.cdnfonts.com/css/banny" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/slick.css">
+    <link rel="stylesheet" href="css/style.min.css">
+
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__menu">
+                <div class="header__menu-left">
+                    <ul>
+                        <li class="header__item"><a href="#" class="header__menu-link">HOME</a></li>
+                        <li class="header__item"><a href="#" class="header__menu-link">ABOUT</a></li>
+                        <li class="header__item"><a href="#" class="header__menu-link">TEAM</a></li>
+                        <li class="header__item"><a href="#booking" class="header__menu-link">BOOKING</a></li>
+                    </ul>
+                </div>
+                <div class="header__logo">
+                    <a href="#"><img src="images/logo.svg" alt="logo"></a>
+                </div>
+                <div class="header__menu-right">
+                    <ul>
+                        <li class="header__item"><a href="#menu" class="header__menu-link">MENU</a></li>
+                        <li class="header__item"><a href="#specialties" class="header__menu-link">GALERIE</a></li>
+                        <li class="header__item"><a href="#events" class="header__menu-link">EVENTS</a></li>
+                        <li class="header__item"><a href="#contacts" class="header__menu-link">CONTACT</a></li>
+                    </ul>
+                </div>
+                <!-- <div class="header__hamburger">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </div>  -->
+            </div>
+
+            <div class="time">
+                <div class="time__item">
+                    <p class="text">left</p>
+                    <div class="time__separator">:</div>
+                </div>
+                <div class="time__item">
+                    <div class="hours">00</div>
+                    <div class="time__separator">:</div>
+                </div>
+                <div class="time__item">
+                    <div class="minutes">00</div>
+                </div>
+            </div>
+
+            <div class="content">
+                <div class="content__location">
+                    <span> Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM</span>
+                </div>
+                <div class="content__wrapper">
+                    <h2 class="content__subtitle subtitle">RESTAURANT</h2>
+                    <h1 class="content__title">hungry people</h1>
+                    <hr>
+                    <div class="content__btns">
+                        <a href="#" class="content__link btn">BOOK TABLE</a>
+                        <a href="#" class="content__link">EXPLORE</a>
+                    </div>
+                </div>
+                <div class="content__social">
+                    <a class="content_social-facebook" href="#"><img src="images/facebook.png" alt="facebook"></a>
+                    <a class="content_social-twitter" href="#"><img src="images/twitter.png" alt="twitter"></a>
+                    <a class="content_social-instagram" href="#"><img src="images/instagram.png" alt="instagram"></a>
+                </div>
+               
+            </div>
+            <div class="header__down">
+                <a href="#">
+                    <img src="images/down-btn.png" alt="down-btn">
+                </a>
+            </div>
+            
+        </div>
+       
+    </header>
+
+    <section class="booking" id="booking">
+        <div class="booking__wrapper">
+            <div class="booking__table">
+                <div class="booking__title title">book a table</div>
+                <hr>
+                <form id="form" class="form" action="#">
+                    <input name="name" required placeholder="Name" type="text">
+                    <input name="email" required placeholder="Email" type="email">
+                    <input name="phone" required placeholder="Phone">
+                    <select id="people" class="select">
+                        <option value="1">People</option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                    </select>
+                    <input id="date" name="date" required placeholder="Date (mm/dd)">
+                    <select id="time" class="select">
+                        <option value="1">Time</option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                    </select>
+                    <button class="booking__btn">BOOK NOW</button>
+                </form>
+            </div>
+            <div class="booking__img">
+                <img src="images/booking-img.jpg" alt="booking-img">
+            </div>
+        </div>
+        <div class="booking__location">
+            Mon - Fri: 8PM - 10PM, Sat - Sun: 8PM - 3AM, Phone: +40 729 131 637/+40 726 458 782
+        </div>
+    </section>
+
+    <section class="specialties" id="specialties">
+        <h2 class="specialties__subtitle subtitle"> specialties</h2>
+        <div class="slider">
+            <div class="slider__inner">
+                <div class="slider__item">
+                    <div class="slider__item-wrapper">
+                        <div class="slider__item-left">
+                            <div class="slider__item-left_img">
+                                <img src="images/slider.png" alt="slider">
+                            </div>
+                        </div>
+                        <div class="slider__item-right">
+                            <div class="slider__item-info">
+                                <div class="slider__item-title title">chocolate pancakes</div>
+                                <hr>
+                                <div class="slider__item-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+                                <div class="slider__item-descr">Integer ullamcorper neque eu purus euismod, ac faucibus
+                                    mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat,
+                                    dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+                                    diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-wrapper">
+                        <div class="slider__item-left">
+                            <div class="slider__item-left_img">
+                                <img src="images/slider.png" alt="slider">
+                            </div>
+                        </div>
+                        <div class="slider__item-right">
+                            <div class="slider__item-info">
+                                <div class="slider__item-title title">chocolate pancakes</div>
+                                <hr>
+                                <div class="slider__item-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+                                <div class="slider__item-descr">Integer ullamcorper neque eu purus euismod, ac faucibus
+                                    mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat,
+                                    dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+                                    diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="slider__item">
+                    <div class="slider__item-wrapper">
+                        <div class="slider__item-left">
+                            <div class="slider__item-left_img">
+                                <img src="images/slider.png" alt="slider">
+                            </div>
+                        </div>
+                        <div class="slider__item-right">
+                            <div class="slider__item-info">
+                                <div class="slider__item-title title">chocolate pancakes</div>
+                                <hr>
+                                <div class="slider__item-subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing
+                                    elit. Duis at velit maximus, molestie est a, tempor magna.</div>
+                                <div class="slider__item-descr">Integer ullamcorper neque eu purus euismod, ac faucibus
+                                    mauris posuere. Morbi non ultrices ligula. Sed dictum, enim sed ullamcorper feugiat,
+                                    dui odio vehicula eros, a sollicitudin lorem quam nec sem. Mauris tincidunt feugiat
+                                    diam convallis pharetra. Nulla facilisis semper laoreet.</div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="menu" id="menu">
+        <div class="container">
+            <div class="menu__title title">DELICIOUS MENU</div>
+            <hr>
+            <div class="menu__subtitle">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis at velit maximus,
+                molestie est a, tempor magna.</div>
+
+            <ul class="menu__tabs">
+                <li class="menu__tab">
+                    <div>SOUPE</div>
+                </li>
+                <li class="menu__tab menu__tab_active">
+                    <div>PIZZA</div>
+                </li>
+                <li class="menu__tab ">
+                    <div>PASTA</div>
+                </li>
+                <li class="menu__tab ">
+                    <div>DESERT</div>
+                </li>
+                <li class="menu__tab ">
+                    <div>WINE</div>
+                </li>
+                <li class="menu__tab ">
+                    <div>BEER</div>
+                </li>
+                <li class="menu__tab ">
+                    <div>DRINKS</div>
+                </li>
+            </ul>
+
+            <div class="menu__content" id="soupe">
+                <div class="menu__item soupe">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+            </div>
+
+            <div class="menu__content menu__content_active" id="pizza">
+                <div class="menu__item pizza">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+            </div>
+
+            <div class="menu__content" id="pasta">
+                <div class="menu__item pasta">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+            </div>
+            <div class="menu__content" id="desert">
+                <div class="menu__item desert">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+            </div>
+
+            <div class="menu__content" id="wine">
+                <div class="menu__item wine">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+            </div>
+
+            <div class="menu__content" id="beer">
+                <div class="menu__item beer">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+
+            </div>
+
+            <div class="menu__content" id="prinks">
+                <div class="menu__item prinks">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+                <div class="menu__item">
+                    <div class="menu__item-content">
+                        <div class="menu__item-name">PIZZA QUATRO STAGIONI . . . .</div>
+                        <div class="menu__item-price">55,68 USD</div>
+                    </div>
+                    <div class="menu__item-descr">Integer ullamcorper neque eu purus euismod</div>
+                </div>
+            </div>
+        </div>
+
+    </section>
+
+    <section class="events" id="events">
+        <div class="events__subtitle subtitle">PRIVATE EVENTS</div>
+        <div class="events__items">
+            <div class="events__item">
+                <img src="images/events-1.png" alt="events">
+                <div class="events__item-title weddings">weddings</div>
+
+            </div>
+            <div class="events__item">
+                <img src="images/events-2.png" alt="events">
+                <div class="events__item-title corporate">corporate pzrties</div>
+            </div>
+        </div>
+        <div class="events__contacts" id="contacts">For private events please call: +40 729 131 637/+40 726 458 782 or
+            use the contact
+            form.</div>
+    </section>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/script.js"></script>
+</body>
+
+</html>
