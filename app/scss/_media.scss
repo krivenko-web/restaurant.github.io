@@ -1,0 +1,201 @@
+@media(max-width: 1356px){
+    .booking__table {
+        padding-top: 0;
+    }
+}
+
+
+@media(max-width: 1280px){
+    .header__menu-left ul li a, .header__menu-right ul li a{
+        width: 100px;
+    }
+}
+
+@media(max-width: 1225px){
+    .specialties .slider__item-wrapper{
+        flex-direction:column;
+    }
+    .specialties .slider__item-left{
+        padding-left: 0;
+        &_img  {
+            max-height: none;
+        }
+    }
+    .specialties .slider__item-right{
+        padding-top: 0;
+        margin-right: 0;
+        padding-left: 0;
+    }
+    .specialties .slider__inner .slick-dots{
+        padding: 10px 0 20px; 
+    }
+}
+
+@media(max-width: 1031px){
+    .header__menu-left ul li a, .header__menu-right ul li a{
+        width: 75px;
+    }
+    .header .time{
+        width: 185px;
+        height: 60px;
+    }
+    .header .time__item, .header .time .hours, .header .time .minutes{
+        font-size: 28.46px;
+    }
+    .content__title{
+        font-size: 69.4581px;
+    }
+}
+@media(max-width: 930px){
+    .content__title {
+        font-size: 50.4581px;
+    }
+    .content__link{
+        width: 138px;
+    }
+}
+@media(max-width: 856px){
+    .header{
+        min-height: 590px;
+    }
+    .header__menu-left ul li a, .header__menu-right ul li a{
+        color:black;
+        font-size: 17px;
+    }
+    .header{  
+        &__menu{
+            position: fixed;
+		    flex-direction: column;
+		    justify-content: space-around;
+            align-items: center;
+		    top: 0;
+		    width: 100%;
+		    height: 80px;
+            height: 0;
+		    padding: 80px 15px;
+		    background-color: rgba(248, 241, 241, 0.9);
+		    transition: 0.6s all;
+            z-index: 2;
+            &_active{
+                height: 80px;
+            } 
+        }
+        &__hamburger{
+            display: block;
+            position: fixed;
+            right: 10px;
+            top: 6%;
+            transform: translateY(-6%);
+            width: 26px;
+            height: 12px;
+            z-index: 4;
+            span{
+                display: block;
+                height: 2px;
+                width: 100%;
+                background-color: #E8C300;;
+                margin-bottom: 2px;
+                transition: 0.5s all;
+            }
+            &_active{
+                z-index: 3;
+                span{
+                    margin-bottom: -2px;
+				    &:nth-child(1){
+                        transform: translateY(3px) rotate(-45deg);
+                    }
+				    &:nth-child(2){
+                        display: none;
+                    }
+				    &:nth-child(3){
+                        transform: translateY(3px) rotate(45deg);
+                    }
+                }
+            }
+        }
+        &__logo{
+            display: none;
+        } 
+    } 
+    .content__location{
+        top: 37%;
+    }  
+}
+
+@media(max-width: 817px){
+    .booking__img{
+        display: none;
+    }
+}
+@media(max-width: 770px){
+    .content__location{
+        flex-direction: row;
+        transform: rotate(0deg) translateY(-50%);
+        top: 56%;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+    .content__social{
+        position: absolute;
+        flex-direction: row;
+        top: 58%;
+        left: 50%;
+        transform: translateX(-50%);
+        a{
+            margin-top: 10px;
+            margin-right: 10px;
+        }
+        
+    }
+  
+}
+
+@media(max-width: 650px){
+    .content__title {
+        font-size: 39.4581px;
+    }
+    .specialties .slider__item-left_img::before{
+        display: none;
+    }
+    .events__item .weddings::before{
+        display: none;
+    }
+    .events__item .corporate::before{
+        display: none;
+    }
+}
+
+@media(max-width: 619px){
+    /* .booking .form input, .booking .select{
+        width: 215.12px;
+    } */
+
+    .booking .form{
+        grid-template: 56px / repeat(1, 258px);
+    }
+    .booking .select{
+        height: 55.91px;
+    }
+    .booking__btn{
+        width: 258.12px;
+    }
+    .booking__location{
+       padding: 0 10px;
+    }
+
+}
+@media(max-width: 590px){
+    .menu__subtitle{
+        font-size: 14.7734px;
+        width: 381.5px;
+    }
+    .menu__tabs{
+        padding-top: 29px;
+    }
+}
+@media(max-width: 544px){
+    .content__title {
+        font-size: 30.4581px;
+    }
+}
+
